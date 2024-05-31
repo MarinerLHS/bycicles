@@ -1,0 +1,28 @@
+.header {
+  min-height: 800px;
+  background-color: #222429;
+  background: center / 100% 100% no-repeat url(..//pictures/header/header-bycicle.jpg);
+}
+
+.header__body {}
+
+.header-nav {
+  padding-top: 35px;
+  display: flex;
+  justify-content: center;
+  font-size: 13px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: var(--header-color);
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 52px;
+}
+
+.navigation__list {}

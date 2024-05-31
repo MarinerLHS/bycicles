@@ -1,0 +1,39 @@
+.la-boriosa {}
+
+
+
+.la-boriosa__content {}
+
+.content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex: 1 1 533px;
+}
+
+.content__logo {}
+
+.content__title {}
+
+.content__text {}
+
+.content__line {}
+
+.content__image {}
+
+.content-image-boriosa {
+  background: center/100% 100% no-repeat url(..//..//pictures/main/section-3/bycicle-seat-3.jpg);
+}
+
+.la-boriosa__main-image {
+  flex: 1 1 1067px;
+}
+
+.image {}
+
+.image__main-logo {}
+
+.logo-boriosa-background {
+  background: center/100% 100% no-repeat url(..//..//pictures/main/section-3/bycicle-3.jpg);
+}

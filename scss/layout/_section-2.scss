@@ -1,0 +1,75 @@
+.vintage-oliva {}
+
+
+.body-content {
+  display: flex;
+  flex-direction: row;
+  min-height: 600px;
+}
+
+.vintage-oliva__main-image {
+  flex: 1 1 1067px;
+}
+
+.image {}
+
+.logo-vintage-background {
+  background: center/100% 100% no-repeat url(..//..//pictures/main/section-2/bycicle-handle-2.jpg);
+}
+
+.image__main-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.vintage-oliva__content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex: 1 1 533px;
+}
+
+.content {
+  text-align: center;
+}
+
+.content__logo {
+  padding: 61px 0px 31px 0px;
+}
+
+.content__title {
+  font-size: 18px;
+  color: rgb(53, 55, 56);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  padding-bottom: 25px;
+}
+
+.content__text {
+  font-size: 16px;
+  color: rgb(132, 135, 137);
+  line-height: 1.875;
+  padding: 0px 68px 83px 68px;
+}
+
+.content__line:after {
+  content: " ";
+  background: #333333;
+  width: 50px;
+  height: 2px;
+  left: 45%;
+  bottom: 45%;
+  position: absolute;
+}
+
+.content-image-vintage {
+  background: center/100% 100% no-repeat url(..//..//pictures/main/section-2/bycicle-seat-2.jpg);
+}
+
+.content__image {
+  height: 100%;
+}

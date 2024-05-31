@@ -1,0 +1,60 @@
+.form__body {
+  background-color: white;
+  min-height: 469px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form__logo {
+  padding-bottom: 38px;
+}
+
+.form__text {
+  font-size: 24px;
+  color: rgb(132, 135, 137);
+  font-style: italic;
+  line-height: 1.417;
+  text-align: center;
+  height: 21px;
+  margin-bottom: 45px;
+}
+
+.form__email {
+  display: flex;
+}
+
+.form-input {
+  margin-right: 8px;
+  border: 1px solid rgb(211, 215, 217);
+  background-color: rgb(255, 255, 255);
+  width: 404px;
+  min-height: 74px;
+  color: rgba(146, 146, 146, 0.502);
+  font-size: 20px;
+  font-family: "Lato";
+  font-style: italic;
+  line-height: 1.2;
+  text-align: left;
+}
+
+.form-input::placeholder {
+  padding: 28px;
+  color: rgba(146, 146, 146, 0.502);
+}
+
+
+.form__button {
+  background-color: rgb(100, 194, 158);
+  width: 126px;
+  min-height: 74px;
+}
+
+.form__button-text {
+  font-size: 24px;
+  line-height: 1;
+  color: white;
+  background-color: transparent;
+  padding: 26px 44px;
+}
