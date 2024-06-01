@@ -4,8 +4,6 @@
   background: center / 100% 100% no-repeat url(..//pictures/header/header-bycicle.jpg);
 }
 
-.header__body {}
-
 .header-nav {
   padding-top: 35px;
   display: flex;
@@ -18,11 +16,13 @@
   color: var(--header-color);
 }
 
+.header-nav p {
+  color: var(--header-color);
+}
+
 .navigation {
   display: flex;
   align-items: center;
   flex-direction: row;
   gap: 52px;
 }
-
-.navigation__list {}

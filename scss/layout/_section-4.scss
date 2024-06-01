@@ -1,4 +1,4 @@
-.retro-bike__body {}
+@media screen and ($bp-desktop) {}
 
 .retro-bike__main-image {
   flex: 1 1 34.333%;
@@ -13,4 +13,10 @@
 .retro-bike__main-image-2 {
   flex: 1 1 33.333%;
   background: center/100% 100% no-repeat url(..//..//pictures/main/section-4/bycicle-section-4.jpg);
+}
+
+
+.logo-retro-background,
+.retro-bike__main-image-2 {
+  min-height: 1067px;
 }
