@@ -1,0 +1,23 @@
+.form-input {
+  margin-right: 8px;
+  border: 1px solid rgb(211, 215, 217);
+  background-color: rgb(255, 255, 255);
+  color: rgba(146, 146, 146, 0.502);
+  font-size: 16px;
+  font-style: italic;
+  text-align: left;
+
+  @media screen and (min-width: $bp-mobile) {
+    min-width: 200px;
+  }
+
+  @media screen and (min-width: $bp-tablet) {
+    font-size: 20px;
+    min-width: 404px;
+  }
+}
+
+.form-input::placeholder {
+  padding: 10px;
+  color: rgba(146, 146, 146, 0.502);
+}

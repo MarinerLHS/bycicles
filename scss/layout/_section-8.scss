@@ -1,60 +1,95 @@
-.form__body {
-  background-color: white;
-  min-height: 469px;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-}
+.form {
+  &__body {
+    margin: 15px;
+    background-color: #fff;
+    min-height: 250px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 
-.form__logo {
-  padding-bottom: 38px;
-}
+    @media screen and (min-width: $bp-mobile) {
+      min-height: 300px;
+    }
 
-.form__text {
-  font-size: 24px;
-  color: rgb(132, 135, 137);
-  font-style: italic;
-  line-height: 1.417;
-  text-align: center;
-  height: 21px;
-  margin-bottom: 45px;
-}
+    @media screen and (min-width: $bp-tablet) {
+      min-height: 400px;
+    }
 
-.form__email {
-  display: flex;
-}
+    @media screen and (min-width: $bp-desktop) {
+      min-height: 469px;
+    }
+  }
 
-.form-input {
-  margin-right: 8px;
-  border: 1px solid rgb(211, 215, 217);
-  background-color: rgb(255, 255, 255);
-  width: 404px;
-  min-height: 74px;
-  color: rgba(146, 146, 146, 0.502);
-  font-size: 20px;
-  font-family: "Lato";
-  font-style: italic;
-  line-height: 1.2;
-  text-align: left;
-}
+  &__logo {
+    padding-bottom: 20px;
 
-.form-input::placeholder {
-  padding: 28px;
-  color: rgba(146, 146, 146, 0.502);
-}
+    @media screen and (min-width: $bp-mobile) {
+      padding-bottom: 30px;
+    }
+
+    @media screen and (min-width: $bp-tablet) {
+      padding-bottom: 38px;
+    }
+  }
+
+  &__text {
+    font-size: 18px;
+    color: rgb(132, 135, 137);
+    font-style: italic;
+    line-height: 1.417;
+    text-align: center;
+    margin-bottom: 20px;
+
+    @media screen and (min-width: $bp-mobile) {
+      font-size: 20px;
+      margin-bottom: 30px;
+    }
+
+    @media screen and (min-width: $bp-tablet) {
+      font-size: 24px;
+      margin-bottom: 45px;
+    }
+  }
+
+  &__email {
+    display: flex;
+  }
+
+  &__button {
+    min-height: 40px;
+    min-width: 60px;
+    background-color: rgb(100, 194, 158);
+
+    @media screen and (min-width: $bp-mobile) {
+      min-width: 100px;
+      min-height: 50px;
+    }
+
+    @media screen and (min-width: $bp-tablet) {
+      width: 126px;
+      min-height: 74px;
+
+    }
+  }
+
+  &__button-text {
+    font-size: 16px;
+
+    line-height: 1;
+    color: white;
+    background-color: transparent;
+    padding: 12px 15px;
 
 
-.form__button {
-  background-color: rgb(100, 194, 158);
-  width: 126px;
-  min-height: 74px;
-}
+    @media screen and (min-width: $bp-mobile) {
+      font-size: 20px;
+      padding: 17px 30px;
+    }
 
-.form__button-text {
-  font-size: 24px;
-  line-height: 1;
-  color: white;
-  background-color: transparent;
-  padding: 26px 44px;
+    @media screen and (min-width: $bp-tablet) {
+      padding: 26px 44px;
+      font-size: 24px;
+    }
+  }
 }

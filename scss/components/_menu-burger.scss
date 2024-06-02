@@ -112,3 +112,23 @@
 .navigation-burger img {
   margin: 10px;
 }
+
+
+.close-button:before,
+.close-button:after {
+  content: '';
+  background-color: var(--header-color);
+  position: absolute;
+  width: 30px;
+  height: 2px;
+  right: 0;
+  top: 20px;
+}
+
+.close-button:before {
+  transform: rotate(45deg);
+}
+
+.close-button:after {
+  transform: rotate(-45deg);
+}
